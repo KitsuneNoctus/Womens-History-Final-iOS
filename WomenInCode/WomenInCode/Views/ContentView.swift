@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//https://www.appcoda.com/swiftui-card-view/
+
 struct ContentView: View {
     var body: some View {
         VStack {
