@@ -15,6 +15,9 @@
 		3F04433D256C7D29009FC559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F04433B256C7D29009FC559 /* LaunchScreen.storyboard */; };
 		3F044348256C7D2A009FC559 /* WomenInCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044347256C7D2A009FC559 /* WomenInCodeTests.swift */; };
 		3F044353256C7D2A009FC559 /* WomenInCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044352256C7D2A009FC559 /* WomenInCodeUITests.swift */; };
+		3F044365256C7DDB009FC559 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044364256C7DDB009FC559 /* About.swift */; };
+		3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04436C256C7DEA009FC559 /* Challenges.swift */; };
+		3F044373256C7E20009FC559 /* WomenOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044372256C7E20009FC559 /* WomenOfCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3F04434E256C7D2A009FC559 /* WomenInCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WomenInCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F044352256C7D2A009FC559 /* WomenInCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenInCodeUITests.swift; sourceTree = "<group>"; };
 		3F044354256C7D2A009FC559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F044364256C7DDB009FC559 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		3F04436C256C7DEA009FC559 /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
+		3F044372256C7E20009FC559 /* WomenOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenOfCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,9 @@
 		3F04432F256C7D27009FC559 /* WomenInCode */ = {
 			isa = PBXGroup;
 			children = (
+				3F044363256C7DA7009FC559 /* Views */,
 				3F044330256C7D27009FC559 /* AppDelegate.swift */,
 				3F044332256C7D27009FC559 /* SceneDelegate.swift */,
-				3F044334256C7D27009FC559 /* ContentView.swift */,
 				3F044336256C7D29009FC559 /* Assets.xcassets */,
 				3F04433B256C7D29009FC559 /* LaunchScreen.storyboard */,
 				3F04433E256C7D29009FC559 /* Info.plist */,
@@ -134,6 +140,17 @@
 				3F044354256C7D2A009FC559 /* Info.plist */,
 			);
 			path = WomenInCodeUITests;
+			sourceTree = "<group>";
+		};
+		3F044363256C7DA7009FC559 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F044334256C7D27009FC559 /* ContentView.swift */,
+				3F044364256C7DDB009FC559 /* About.swift */,
+				3F04436C256C7DEA009FC559 /* Challenges.swift */,
+				3F044372256C7E20009FC559 /* WomenOfCode.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F044373256C7E20009FC559 /* WomenOfCode.swift in Sources */,
 				3F044331256C7D27009FC559 /* AppDelegate.swift in Sources */,
+				3F044365256C7DDB009FC559 /* About.swift in Sources */,
+				3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */,
 				3F044333256C7D27009FC559 /* SceneDelegate.swift in Sources */,
 				3F044335256C7D27009FC559 /* ContentView.swift in Sources */,
 			);
