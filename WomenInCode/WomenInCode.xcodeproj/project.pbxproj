@@ -19,6 +19,7 @@
 		3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04436C256C7DEA009FC559 /* Challenges.swift */; };
 		3F044373256C7E20009FC559 /* WomenOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044372256C7E20009FC559 /* WomenOfCode.swift */; };
 		CF7F0F73257193C1004B8662 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0F72257193C1004B8662 /* CardView.swift */; };
+		CF7F0F78257195E3004B8662 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0F77257195E3004B8662 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3F04436C256C7DEA009FC559 /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
 		3F044372256C7E20009FC559 /* WomenOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenOfCode.swift; sourceTree = "<group>"; };
 		CF7F0F72257193C1004B8662 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CF7F0F77257195E3004B8662 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				3F04433B256C7D29009FC559 /* LaunchScreen.storyboard */,
 				3F04433E256C7D29009FC559 /* Info.plist */,
 				3F044338256C7D29009FC559 /* Preview Content */,
+				CF7F0F77257195E3004B8662 /* AppColors.swift */,
 			);
 			path = WomenInCode;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				3F044331256C7D27009FC559 /* AppDelegate.swift in Sources */,
 				3F044365256C7DDB009FC559 /* About.swift in Sources */,
 				3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */,
+				CF7F0F78257195E3004B8662 /* AppColors.swift in Sources */,
 				3F044333256C7D27009FC559 /* SceneDelegate.swift in Sources */,
 				3F044335256C7D27009FC559 /* ContentView.swift in Sources */,
 			);
