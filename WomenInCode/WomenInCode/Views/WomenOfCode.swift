@@ -9,7 +9,21 @@ import SwiftUI
 
 struct WomenOfCode: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack{
+            Image("")
+            .resizable()
+                .aspectRatio(contentMode: .fit)
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
+            .shadow(radius: 10)
+            CardView(image: "", category: "Women in Code", heading: "Women in Code", bodyText: "These are the famous women who have made great conrtibutions to history.", bodyColor: .orange)
+        }
+        HStack{
+            SmallCardView(image: "", name: "Joan")
+            SmallCardView(image: "", name: "Joan")
+            SmallCardView(image: "", name: "Joan")
+        }
+        
     }
 }
 

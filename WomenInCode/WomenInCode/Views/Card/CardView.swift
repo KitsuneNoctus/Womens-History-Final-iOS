@@ -12,7 +12,7 @@ struct CardView: View {
     var category: String = ""
     var heading: String = ""
     var bodyText: String = ""
-    var bodyColor: Color = Color(.gray)
+    var bodyColor: Color = Color(.lightGray)
     
     var body: some View {
         VStack {
@@ -47,7 +47,7 @@ struct CardView: View {
         .overlay(
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.2), lineWidth: 1)
-                .background(bodyColor)
+                
         )
         .cornerRadius(10)
         .padding([.top, .horizontal])
