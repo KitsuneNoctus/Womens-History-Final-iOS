@@ -11,31 +11,48 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image("swiftui-button")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            
-            HStack {
-                VStack(alignment: .leading) {
-                    Text("SwiftUI")
-                        .font(.headline)
-                        .foregroundColor(.secondary)
-                    Text("Drawing a Border with Rounded Corners")
-                        .font(.title)
-                        .fontWeight(.black)
-                        .foregroundColor(.primary)
-                        .lineLimit(3)
-                    Text("Written by Simon Ng".uppercased())
-                        .font(.caption)
-                        .foregroundColor(.secondary)
+        NavigationView {
+            CardView(image: "two-women-fixing-computer", category: "About", heading: "About", bodyText: "Thesis", bodyColor: .blue)
+            VStack {
+                Text("Hello World")
+                NavigationLink(destination: About()) {
+                    Text("Do Something")
                 }
-                .layoutPriority(100)
-                
-                Spacer()
             }
-            .padding()
         }
+        //        navigationTitle("Women in Code")
+        ScrollView{
+            
+            CardView(image: "two-women-fixing-computer", category: "Challenges", heading: "About", bodyText: "Thesis", bodyColor: .green)
+            CardView(image: "two-women-fixing-computer", category: "Achievements", heading: "About", bodyText: "Thesis", bodyColor: .red)
+            CardView(image: "two-women-fixing-computer", category: "Women in Code", heading: "About", bodyText: "Thesis", bodyColor: .orange)
+            CardView(image: "two-women-fixing-computer", category: "Credit", heading: "About", bodyText: "Thesis", bodyColor: .gray)
+        }
+        //        VStack {
+        //            Image("swiftui-button")
+        //                .resizable()
+        //                .aspectRatio(contentMode: .fit)
+        //
+        //            HStack {
+        //                VStack(alignment: .leading) {
+        //                    Text("SwiftUI")
+        //                        .font(.headline)
+        //                        .foregroundColor(.secondary)
+        //                    Text("Drawing a Border with Rounded Corners")
+        //                        .font(.title)
+        //                        .fontWeight(.black)
+        //                        .foregroundColor(.primary)
+        //                        .lineLimit(3)
+        //                    Text("Written by Simon Ng".uppercased())
+        //                        .font(.caption)
+        //                        .foregroundColor(.secondary)
+        //                }
+        //                .layoutPriority(100)
+        //
+        //                Spacer()
+        //            }
+        //            .padding()
+        //        }
         .cornerRadius(10)
         .overlay(
             RoundedRectangle(cornerRadius: 10)
