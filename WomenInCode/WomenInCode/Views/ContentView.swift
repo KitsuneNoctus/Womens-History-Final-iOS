@@ -12,7 +12,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            CardView(image: "two-women-fixing-computer", category: "About", heading: "About", bodyText: "Thesis", bodyColor: .blue)
+            HomeCardView(image: "two-women-fixing-computer", heading: "About", content: "Thesis", bodyColor: .blue)
             VStack {
                 Text("Hello World")
                 NavigationLink(destination: About()) {
@@ -22,11 +22,10 @@ struct ContentView: View {
         }
         //        navigationTitle("Women in Code")
         ScrollView{
-            
-            CardView(image: "two-women-fixing-computer", category: "Challenges", heading: "About", bodyText: "Thesis", bodyColor: .green)
-            CardView(image: "two-women-fixing-computer", category: "Achievements", heading: "About", bodyText: "Thesis", bodyColor: .red)
-            CardView(image: "two-women-fixing-computer", category: "Women in Code", heading: "About", bodyText: "Thesis", bodyColor: .orange)
-            CardView(image: "two-women-fixing-computer", category: "Credit", heading: "About", bodyText: "Thesis", bodyColor: .gray)
+            HomeCardView(image: "two-women-fixing-computer", heading: "Challenges", content: "Thesis", bodyColor: .green)
+            HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Thesis", bodyColor: .red)
+            HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Thesis", bodyColor: .orange)
+            HomeCardView(image: "two-women-fixing-computer", heading: "Credit", content: "Thesis", bodyColor: .gray)
         }
         //        VStack {
         //            Image("swiftui-button")
