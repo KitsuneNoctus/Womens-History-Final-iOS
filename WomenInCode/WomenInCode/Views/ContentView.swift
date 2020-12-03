@@ -12,31 +12,31 @@ import SwiftUI
 struct ContentView: View {
     var body: some View{
         NavigationView{
-            CardView(image: "", category: "About", heading: "About", bodyText: "Thesis Statement ", bodyColor: .blue)
+            CardView(image: "filler_code", category: "About", heading: "About", bodyText: "Thesis Statement ", bodyColor: .blue)
             NavigationLink(destination: About()) {
                 Text("Do Something")
             }
         }
         NavigationView{
-            CardView(image: "", category: "Challenges", heading: "Challenges", bodyText: "The Challenegs that Women have faced.", bodyColor: .green)
+            CardView(image: "filler_code", category: "Challenges", heading: "Challenges", bodyText: "The Challenegs that Women have faced.", bodyColor: .green)
             NavigationLink(destination: About()) {
                 Text("Do Something")
             }
         }
         NavigationView{
-            CardView(image: "", category: "Achievements", heading: "Achievements", bodyText: "The Achievments that women in code have made", bodyColor: .red)
+            CardView(image: "filler_code", category: "Achievements", heading: "Achievements", bodyText: "The Achievments that women in code have made", bodyColor: .red)
             NavigationLink(destination: About()) {
                 Text("Do Something")
             }
         }
         NavigationView{
-            CardView(image: "", category: "Women in Code", heading: "Women in Code", bodyText: "These are the famous women who have made great conrtibutions to history.", bodyColor: .orange)
+            CardView(image: "filler_code", category: "Women in Code", heading: "Women in Code", bodyText: "These are the famous women who have made great conrtibutions to history.", bodyColor: .orange)
             NavigationLink(destination: WomenOfCode()) {
                 Text("Do Something")
             }
         }
         NavigationView{
-            CardView(image: "", category: "Credits", heading: "Credits", bodyText: "The Credits", bodyColor: .gray)
+            CardView(image: "filler_code", category: "Credits", heading: "Credits", bodyText: "The Credits", bodyColor: .gray)
             NavigationLink(destination: About()) {
                 Text("Do Something")
             }
