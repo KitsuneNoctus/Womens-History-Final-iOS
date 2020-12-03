@@ -48,14 +48,12 @@ struct CardView: View {
                     .background(bodyColor)
             )
         }
-<<<<<<< HEAD:WomenInCode/WomenInCode/Views/Card/CardView.swift
         .overlay(
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.2), lineWidth: 1)
                 
         )
-=======
->>>>>>> main:WomenInCode/WomenInCode/Views/CardView.swift
+
         .cornerRadius(10)
         .padding([.top, .horizontal])
     }
