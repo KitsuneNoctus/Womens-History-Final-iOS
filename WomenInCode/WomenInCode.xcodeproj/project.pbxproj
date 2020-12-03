@@ -167,7 +167,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
+
 		3F62215B25775DCC00548B46 /* Card */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +175,7 @@
 				3F62215F25775F8D00548B46 /* SmallCardView.swift */,
 			);
 			path = Card;
-=======
+
 		CF7F0FF0257892BD004B8662 /* ChallengesFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +185,7 @@
 				CF7F0FE6257887A8004B8662 /* UnequalOpportunities.swift */,
 			);
 			path = ChallengesFlow;
->>>>>>> main
+
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
