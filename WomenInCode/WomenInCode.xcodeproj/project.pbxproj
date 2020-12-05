@@ -174,7 +174,7 @@
 			children = (
 				3F7EC337257B2D7500B5B114 /* CreditsView.swift */,
 				3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */,
-				3F9B19EA2578A1360078EF4A /* New Group */,
+				3F9B19EA2578A1360078EF4A /* Cards */,
 				3F044334256C7D27009FC559 /* ContentView.swift */,
 				3F044364256C7DDB009FC559 /* About.swift */,
 				CF7F0FF0257892BD004B8662 /* ChallengesFlow */,
@@ -190,11 +190,19 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3F9B19EA2578A1360078EF4A /* New Group */ = {
+		3F7EC356257B78BD00B5B114 /* Partials */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Partials;
+			sourceTree = "<group>";
+		};
+		3F9B19EA2578A1360078EF4A /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				3F7EC356257B78BD00B5B114 /* Partials */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 		CF7F0FF0257892BD004B8662 /* ChallengesFlow */ = {
