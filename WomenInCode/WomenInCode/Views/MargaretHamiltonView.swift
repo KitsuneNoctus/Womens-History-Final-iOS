@@ -17,8 +17,9 @@ struct MargaretHamiltonView: View {
 //                .frame(height:200)
             ScrollView{
                 Text("Margaret Hamilton")
-                    .font(.system(size: 20, weight: .bold, design: .serif))
-                Text("Hello there would you like to know about our lord and savior jesus Christ. He came here to the USA not to long ago on his mission to spread the word of God.")
+                    .font(.title)
+                Text("July 16, 1969, America sent men to the moon. They used the latest in rocket engineering to propel these men into space. Yet who was it that made sure that the machines worked like they were supposed to? That would be Margart Hamilton.")
+                    .font(.body)
 //                    .lineLimit(0)
     //            textFieldStyle(.)
     //            multilineTextAlignment(.center)
