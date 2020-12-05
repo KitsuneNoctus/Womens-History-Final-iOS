@@ -18,7 +18,14 @@
 		3F044365256C7DDB009FC559 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044364256C7DDB009FC559 /* About.swift */; };
 		3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04436C256C7DEA009FC559 /* Challenges.swift */; };
 		3F044373256C7E20009FC559 /* WomenOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F044372256C7E20009FC559 /* WomenOfCode.swift */; };
+<<<<<<< HEAD
 		3F62216025775F8D00548B46 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F62215F25775F8D00548B46 /* SmallCardView.swift */; };
+=======
+		3F7EC338257B2D7500B5B114 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EC337257B2D7500B5B114 /* CreditsView.swift */; };
+		3F9B19E125789F620078EF4A /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B19E025789F620078EF4A /* HomeCardView.swift */; };
+		3F9B19E62578A1170078EF4A /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B19E52578A1170078EF4A /* AchievementsView.swift */; };
+		3F9B19EC2578A1600078EF4A /* MargaretHamiltonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */; };
+>>>>>>> main
 		CF7F0F73257193C1004B8662 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0F72257193C1004B8662 /* CardView.swift */; };
 		CF7F0F78257195E3004B8662 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0F77257195E3004B8662 /* AppColors.swift */; };
 		CF7F0FE2257883FF004B8662 /* Discrimination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FE1257883FE004B8662 /* Discrimination.swift */; };
@@ -61,7 +68,14 @@
 		3F044364256C7DDB009FC559 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		3F04436C256C7DEA009FC559 /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
 		3F044372256C7E20009FC559 /* WomenOfCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomenOfCode.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3F62215F25775F8D00548B46 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+=======
+		3F7EC337257B2D7500B5B114 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		3F9B19E025789F620078EF4A /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		3F9B19E52578A1170078EF4A /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaretHamiltonView.swift; sourceTree = "<group>"; };
+>>>>>>> main
 		CF7F0F72257193C1004B8662 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CF7F0F77257195E3004B8662 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		CF7F0FE1257883FE004B8662 /* Discrimination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discrimination.swift; sourceTree = "<group>"; };
@@ -158,15 +172,28 @@
 		3F044363256C7DA7009FC559 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				3F62215B25775DCC00548B46 /* Card */,
+=======
+				3F7EC337257B2D7500B5B114 /* CreditsView.swift */,
+				3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */,
+				3F9B19EA2578A1360078EF4A /* New Group */,
+>>>>>>> main
 				3F044334256C7D27009FC559 /* ContentView.swift */,
 				3F044364256C7DDB009FC559 /* About.swift */,
 				CF7F0FF0257892BD004B8662 /* ChallengesFlow */,
 				3F044372256C7E20009FC559 /* WomenOfCode.swift */,
+<<<<<<< HEAD
+=======
+				CF7F0F72257193C1004B8662 /* CardView.swift */,
+				3F9B19E025789F620078EF4A /* HomeCardView.swift */,
+				3F9B19E52578A1170078EF4A /* AchievementsView.swift */,
+>>>>>>> main
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 
 		3F62215B25775DCC00548B46 /* Card */ = {
 			isa = PBXGroup;
@@ -176,6 +203,15 @@
 			);
 			path = Card;
 
+=======
+		3F9B19EA2578A1360078EF4A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+>>>>>>> main
 		CF7F0FF0257892BD004B8662 /* ChallengesFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -322,14 +358,18 @@
 				3F62216025775F8D00548B46 /* SmallCardView.swift in Sources */,
 				3F044373256C7E20009FC559 /* WomenOfCode.swift in Sources */,
 				3F044331256C7D27009FC559 /* AppDelegate.swift in Sources */,
+				3F7EC338257B2D7500B5B114 /* CreditsView.swift in Sources */,
 				3F044365256C7DDB009FC559 /* About.swift in Sources */,
 				3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */,
+				3F9B19EC2578A1600078EF4A /* MargaretHamiltonView.swift in Sources */,
 				CF7F0F78257195E3004B8662 /* AppColors.swift in Sources */,
 				3F044333256C7D27009FC559 /* SceneDelegate.swift in Sources */,
 				CF7F0FEC257887C1004B8662 /* ChallengesButton.swift in Sources */,
 				3F044335256C7D27009FC559 /* ContentView.swift in Sources */,
+				3F9B19E62578A1170078EF4A /* AchievementsView.swift in Sources */,
 				CF7F0FE2257883FF004B8662 /* Discrimination.swift in Sources */,
 				CF7F0FE7257887A8004B8662 /* UnequalOpportunities.swift in Sources */,
+				3F9B19E125789F620078EF4A /* HomeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
