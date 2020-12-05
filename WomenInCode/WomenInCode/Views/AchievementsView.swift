@@ -9,7 +9,14 @@ import SwiftUI
 
 struct AchievementsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("two-women-fixing-computer")
+            .resizable()
+                .aspectRatio(contentMode: .fit)
+        ScrollView{
+            Text("What has been Done")
+                .font(.title)
+            Text("July 16, 1969 - America lands on the Moon - All due in part to Margaret Hamilton")
+        }
     }
 }
 
