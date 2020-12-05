@@ -12,21 +12,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            HomeCardView(image: "two-women-fixing-computer", heading: "About", content: "Thesis", bodyColor: .blue)
+            ScrollView{
+                NavigationLink(destination: About()){
+                    HomeCardView(image: "two-women-fixing-computer", heading: "About", content: "Thesis", bodyColor: .blue)
+                }
+                NavigationLink(destination: Challenges()){
+                    HomeCardView(image: "two-women-fixing-computer", heading: "Challenges", content: "Thesis", bodyColor: .green)
+                }
+                NavigationLink(destination: AchievementsView()){
+                    HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Thesis", bodyColor: .red)
+                }
+                NavigationLink(destination: WomenOfCode()){
+                    HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Thesis", bodyColor: .orange)
+                }
+                NavigationLink(destination: CreditsView()){
+                    HomeCardView(image: "two-women-fixing-computer", heading: "Credit", content: "Thesis", bodyColor: .gray)
+                }
+            }
             VStack {
                 Text("Hello World")
                 NavigationLink(destination: About()) {
                     Text("Do Something")
                 }
             }
-        }
+        } .navigationBarTitle("Women Of Code")
         //        navigationTitle("Women in Code")
-        ScrollView{
-            HomeCardView(image: "two-women-fixing-computer", heading: "Challenges", content: "Thesis", bodyColor: .green)
-            HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Thesis", bodyColor: .red)
-            HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Thesis", bodyColor: .orange)
-            HomeCardView(image: "two-women-fixing-computer", heading: "Credit", content: "Thesis", bodyColor: .gray)
-        }
+        
         //        VStack {
         //            Image("swiftui-button")
         //                .resizable()
