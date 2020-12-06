@@ -21,9 +21,9 @@ struct ContentView: View {
                 NavigationLink(destination: Challenges()){
                     HomeCardView(image: "two-women-fixing-computer", heading: "Challenges", content: "Women have faced challenges throughout all of history up until now. Here's what they've faced.", bodyColor: .green)
                 }
-                NavigationLink(destination: AchievementsView()){
-                    HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Women have made significant contibutions to the coding community. Learn about what they have achieved here.", bodyColor: .red)
-                }
+//                NavigationLink(destination: AchievementsView()){
+//                    HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Women have made significant contibutions to the coding community. Learn about what they have achieved here.", bodyColor: .red)
+//                }
                 NavigationLink(destination: WomenOfCode()){
                     HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Here are some of the biggest women in coding.", bodyColor: .orange)
                 }
@@ -60,12 +60,12 @@ struct ContentView: View {
             //            }
             //            .padding()
             //        }
-            .cornerRadius(10)
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
-            )
-            .padding(.horizontal)
+//            .cornerRadius(10)
+//            .overlay(
+//                RoundedRectangle(cornerRadius: 10)
+//                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
+//            )
+//            .padding(.horizontal)
         }
     }
 }

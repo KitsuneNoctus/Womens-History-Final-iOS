@@ -26,6 +26,7 @@ struct WomenOfCode: View {
                 }
                 
             }
+            .padding([.horizontal,.bottom])
             .lineSpacing(10)
         }
     }

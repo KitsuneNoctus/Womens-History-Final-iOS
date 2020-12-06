@@ -15,9 +15,9 @@ struct MargaretHamiltonView: View {
 //                .background(colorScheme(.dark))
 //                .edgesIgnoringSafeArea(.top)
 //                .frame(height:200)
+            Text("Margaret Hamilton")
+                .font(.title)
             ScrollView{
-                Text("Margaret Hamilton")
-                    .font(.title)
                 Text("July 16, 1969, America sent men to the moon. They used the latest in rocket engineering to propel these men into space. Yet who was it that made sure that the machines worked like they were supposed to? That would be Margart Hamilton.")
                     .italic()
                     .font(.body)
@@ -26,6 +26,7 @@ struct MargaretHamiltonView: View {
     //            textFieldStyle(.)
     //            multilineTextAlignment(.center)
             }
+            .padding([.horizontal])
         }
     }
 }
