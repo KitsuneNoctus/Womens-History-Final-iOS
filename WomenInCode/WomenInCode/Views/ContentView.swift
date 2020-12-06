@@ -19,16 +19,16 @@ struct ContentView: View {
                     HomeCardView(image: "two-women-fixing-computer", heading: "About", content: "The tech industry has a discriminatory history when it comes to recognizing the capabilities and achievements of women. It is time to look into the past and learn from the industry’s previous mistakes to create a better future for those here now.", bodyColor: .blue)
                 }
                 NavigationLink(destination: Challenges()){
-                    HomeCardView(image: "two-women-fixing-computer", heading: "Challenges", content: "Women have faced challenges throughout all of history up until now. Here's what they've faced.", bodyColor: .green)
+                    HomeCardView(image: "women-at-old-computer", heading: "Challenges", content: "Women have faced challenges throughout all of history up until now. Here's what they've faced.", bodyColor: .green)
                 }
 //                NavigationLink(destination: AchievementsView()){
 //                    HomeCardView(image: "two-women-fixing-computer", heading: "Achievements", content: "Women have made significant contibutions to the coding community. Learn about what they have achieved here.", bodyColor: .red)
 //                }
                 NavigationLink(destination: WomenOfCode()){
-                    HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Here are some of the biggest women in coding.", bodyColor: .orange)
+                    HomeCardView(image: "women-holding-computer-parts", heading: "Women in Code", content: "Here are some of the biggest women in coding.", bodyColor: .orange)
                 }
                 NavigationLink(destination: CreditsView()){
-                    HomeCardView(image: "two-women-fixing-computer", heading: "Credit", content: "Check out these sources for more info.", bodyColor: .gray)
+                    HomeCardView(image: "woman-sitting-at-computer", heading: "Credit", content: "Check out these sources for more info.", bodyColor: .gray)
                 }
             }
             
