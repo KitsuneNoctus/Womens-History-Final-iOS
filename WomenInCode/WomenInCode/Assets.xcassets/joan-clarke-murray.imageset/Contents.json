@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "joan-clarke-murray-codebreaker-at-bletchley-park-during-world-Da85b5a193f360991a1d4c310d8e4cd02-e1567955793317.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
