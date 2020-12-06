@@ -13,8 +13,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView{
-                Text("Women of Code")
-                    .font(.system(size: 30, weight: .bold, design: .serif))
                 NavigationLink(destination: About()){
                     HomeCardView(image: "two-women-fixing-computer", heading: "About", content: "The tech industry has a discriminatory history when it comes to recognizing the capabilities and achievements of women. It is time to look into the past and learn from the industry’s previous mistakes to create a better future for those here now.", bodyColor: .blue)
                 }
@@ -66,6 +64,7 @@ struct ContentView: View {
 //                    .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
 //            )
 //            .padding(.horizontal)
+            .navigationBarTitle("Women of Code", displayMode: .automatic)
         }
     }
 }

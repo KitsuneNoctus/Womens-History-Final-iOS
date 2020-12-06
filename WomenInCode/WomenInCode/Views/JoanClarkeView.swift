@@ -22,7 +22,7 @@ struct JoanClarkeView: View {
             }
             .padding([.horizontal])
         }
-        
+        .offset(x: 0, y: -80)
     }
 }
 

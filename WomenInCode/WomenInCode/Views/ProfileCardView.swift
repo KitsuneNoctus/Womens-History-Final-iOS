@@ -12,16 +12,22 @@ struct ProfileCardView: View {
     var name = ""
     
     var body: some View {
-        VStack{
-            profileImage(image: image)
-            Text(name)
-                .font(.subheadline)
-                .fontWeight(.black)
-                .foregroundColor(.secondary)
-                .lineLimit(3)
+        ZStack{
+            RoundedRectangle(cornerRadius: 10)
+                .fill(Color.purple)
+                .padding([.top, .horizontal])
+            VStack{
+                profileImage(image: image)
+                Text(name)
+                    .font(.subheadline)
+                    .fontWeight(.black)
+                    .foregroundColor(.secondary)
+                    .lineLimit(3)
+            }
+            .cornerRadius(10)
+            .padding([.horizontal])
         }
-        .cornerRadius(10)
-        .padding([.horizontal])
+        
     }
 }
 

@@ -14,6 +14,7 @@ struct HomeCardView: View {
     var bodyColor: Color = Color(.gray)
     
     var body: some View {
+//        https://www.hackingwithswift.com/books/ios-swiftui/designing-a-single-card-view
         ZStack{
             RoundedRectangle(cornerRadius: 10)
                 .fill(bodyColor)
