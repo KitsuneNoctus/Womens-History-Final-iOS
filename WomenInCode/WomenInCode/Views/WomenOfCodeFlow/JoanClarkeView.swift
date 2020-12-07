@@ -14,6 +14,7 @@ struct JoanClarkeView: View {
             profileImage(image: "joan-clarke-murray")
             Text("Joan Clarke")
                 .font(.title)
+                .fontWeight(.bold)
             ScrollView{
                 Text("The Enigma Machine was used to break the Nazi code during WWII. The genius machine was created was a team of Alan Turing and Joan Clarke.")
                     .italic()

@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct Challenges: View {
-    let image = "two-women-fixing-computer"
     let heading: String = "Challenges"
-    let bodyText: String = ""
     
     var body: some View {
         ScrollView {
             VStack(alignment: .center) {
                 Discrimination()
+                    .padding()
                 UnequalOpportunities()
+                    .padding()
                 HiddenHistoryView()
             }
             .padding()

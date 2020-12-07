@@ -10,17 +10,17 @@ import SwiftUI
 struct WomenOfCode: View {
     var body: some View {
         VStack{
-            HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Here are some of the biggest women in coding.", bodyColor: .orange)
+            HomeCardView(image: "two-women-fixing-computer", heading: "Women in Code", content: "Here are some of the biggest women in coding that you may have never heard of.", bodyColor: .orange)
             
             HStack{
                 NavigationLink(destination: GraceHopperView()){
-                    ProfileCardView(image: "woman-sitting-at-computer", name: "Grace Hopper")
+                    ProfileCardView(image: "grace-hopper", name: "Grace Hopper")
                 }
                 NavigationLink(destination: MargaretHamiltonView()){
-                    ProfileCardView(image: "woman-sitting-at-computer", name: "Margaret Heafield Hamilton")
+                    ProfileCardView(image: "Margaret_Hamilton_1995", name: "Margaret Heafield Hamilton")
                 }
                 NavigationLink(destination: JoanClarkeView()){
-                    ProfileCardView(image: "woman-sitting-at-computer", name: "Joan Clarke")
+                    ProfileCardView(image: "joan-clarke-murray", name: "Joan Clarke")
                 }
             }
             .padding([.horizontal,.bottom])

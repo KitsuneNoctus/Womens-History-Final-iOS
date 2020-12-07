@@ -19,11 +19,8 @@ struct ContentView: View {
                 NavigationLink(destination: Challenges()){
                     HomeCardView(image: "women-at-old-computer", heading: "Challenges", content: "Women have faced challenges throughout all of history up until now. Here's what they've faced.", bodyColor: .green)
                 }
-                NavigationLink(destination: AchievementsView()){
-                    HomeCardView(image: "eniac-women", heading: "Achievements", content: "Women have made significant contibutions to the coding community. Learn about what they have achieved here.", bodyColor: .red)
-                }
                 NavigationLink(destination: WomenOfCode()){
-                    HomeCardView(image: "women-holding-computer-parts", heading: "Women in Code", content: "Here are some of the biggest women in coding.", bodyColor: .orange)
+                    HomeCardView(image: "eniac-women", heading: "Women in Code", content: "Here are some of the biggest women in coding that you may have never heard of.", bodyColor: .orange)
                 }
                 NavigationLink(destination: CreditsView()){
                     HomeCardView(image: "woman-sitting-at-computer", heading: "Credit", content: "Check out these sources for more info.", bodyColor: .gray)

@@ -13,11 +13,18 @@ struct Discrimination: View {
         ZStack {
             Color.green.opacity(0.2)
             VStack {
-                Text("Why there are so few women in tech today.")
+                Text("Tech discriminates against women.")
+                    .font(.title2)
+                    .padding(.top, 15)
+                Text("But it hasn't always been this way.")
                     .font(.title)
                     .padding(.top, 15)
                 WebView(urlString: "https://www.youtube.com/watch?v=_ZjGOiJXVBA")
                     .frame(width: 375, height: 250, alignment: .center)
+                    .padding()
+                WebView(urlString: "https://www.youtube.com/watch?v=OZ7zX6LalLI")
+                    .frame(width: 375, height: 250, alignment: .center)
+                    .padding()
             }
             .padding()
         }

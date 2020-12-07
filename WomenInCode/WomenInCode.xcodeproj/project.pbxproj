@@ -176,21 +176,16 @@
 		3F044363256C7DA7009FC559 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CF607987257DB177003F54FA /* WomenOfCodeFlow */,
 				3F7EC337257B2D7500B5B114 /* CreditsView.swift */,
-				3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */,
 				3F9B19EA2578A1360078EF4A /* Cards */,
 				3F044334256C7D27009FC559 /* ContentView.swift */,
 				3F044364256C7DDB009FC559 /* About.swift */,
 				CFD550AF257DA5210096D2A7 /* WebView.swift */,
 				CF7F0FF0257892BD004B8662 /* ChallengesFlow */,
-				3F044372256C7E20009FC559 /* WomenOfCode.swift */,
 				CF7F0F72257193C1004B8662 /* CardView.swift */,
 				3F9B19E025789F620078EF4A /* HomeCardView.swift */,
 				3F9B19E52578A1170078EF4A /* AchievementsView.swift */,
-				3F7EC342257B4FBB00B5B114 /* ProfileCardView.swift */,
-				3F7EC347257B561D00B5B114 /* JoanClarkeView.swift */,
-				3F7EC34C257B563A00B5B114 /* GraceHopperView.swift */,
-				3F7EC351257B5A4700B5B114 /* profileImage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +203,19 @@
 				3F7EC356257B78BD00B5B114 /* Partials */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		CF607987257DB177003F54FA /* WomenOfCodeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3F044372256C7E20009FC559 /* WomenOfCode.swift */,
+				3F7EC34C257B563A00B5B114 /* GraceHopperView.swift */,
+				3F9B19EB2578A1600078EF4A /* MargaretHamiltonView.swift */,
+				3F7EC347257B561D00B5B114 /* JoanClarkeView.swift */,
+				3F7EC342257B4FBB00B5B114 /* ProfileCardView.swift */,
+				3F7EC351257B5A4700B5B114 /* profileImage.swift */,
+			);
+			path = WomenOfCodeFlow;
 			sourceTree = "<group>";
 		};
 		CF7F0FF0257892BD004B8662 /* ChallengesFlow */ = {

@@ -17,9 +17,10 @@ struct HiddenHistoryView: View {
                     .font(.title)
                     .padding(.top, 15)
                 WebView(urlString: "https://youtu.be/_DjK2CSR85c")
-                    .frame(width: 375, height: 250, alignment: .center)
+                    .frame(width: 375, height: 220, alignment: .center)
                 ScrollView {
                     Text("The Wellesley code breakers were a group of students at Wellesley College who secretly cracked codes during World War II. They've been credited with shortening the war by almost a year, yet were told to say that they were sharpening pencils and emptying trash cans - a declaration that no one questioned because they were women.")
+                        .padding(.horizontal)
                 }
             }
             .padding()

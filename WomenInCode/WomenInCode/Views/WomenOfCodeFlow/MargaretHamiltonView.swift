@@ -17,6 +17,7 @@ struct MargaretHamiltonView: View {
 //                .frame(height:200)
             Text("Margaret Hamilton")
                 .font(.title)
+                .fontWeight(.bold)
             ScrollView{
                 Text("July 16, 1969, America sent men to the moon. They used the latest in rocket engineering to propel these men into space. Yet who was it that made sure that the machines worked like they were supposed to? That would be Margart Hamilton.")
                     .italic()
