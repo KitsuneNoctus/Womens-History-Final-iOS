@@ -26,6 +26,7 @@ struct MargaretHamiltonView: View {
     //            textFieldStyle(.)
     //            multilineTextAlignment(.center)
             }
+            .padding()
         }
     }
 }

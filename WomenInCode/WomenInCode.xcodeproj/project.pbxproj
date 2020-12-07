@@ -31,6 +31,8 @@
 		CF7F0FE2257883FF004B8662 /* Discrimination.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FE1257883FE004B8662 /* Discrimination.swift */; };
 		CF7F0FE7257887A8004B8662 /* UnequalOpportunities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FE6257887A8004B8662 /* UnequalOpportunities.swift */; };
 		CF7F0FEC257887C1004B8662 /* ChallengesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FEB257887C1004B8662 /* ChallengesButton.swift */; };
+		CFD550A5257C3EAC0096D2A7 /* HiddenHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD550A4257C3EAC0096D2A7 /* HiddenHistoryView.swift */; };
+		CFD550B0257DA5220096D2A7 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD550AF257DA5210096D2A7 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,8 @@
 		CF7F0FE1257883FE004B8662 /* Discrimination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discrimination.swift; sourceTree = "<group>"; };
 		CF7F0FE6257887A8004B8662 /* UnequalOpportunities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnequalOpportunities.swift; sourceTree = "<group>"; };
 		CF7F0FEB257887C1004B8662 /* ChallengesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesButton.swift; sourceTree = "<group>"; };
+		CFD550A4257C3EAC0096D2A7 /* HiddenHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenHistoryView.swift; sourceTree = "<group>"; };
+		CFD550AF257DA5210096D2A7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +181,7 @@
 				3F9B19EA2578A1360078EF4A /* Cards */,
 				3F044334256C7D27009FC559 /* ContentView.swift */,
 				3F044364256C7DDB009FC559 /* About.swift */,
+				CFD550AF257DA5210096D2A7 /* WebView.swift */,
 				CF7F0FF0257892BD004B8662 /* ChallengesFlow */,
 				3F044372256C7E20009FC559 /* WomenOfCode.swift */,
 				CF7F0F72257193C1004B8662 /* CardView.swift */,
@@ -212,6 +217,7 @@
 				CF7F0FEB257887C1004B8662 /* ChallengesButton.swift */,
 				CF7F0FE1257883FE004B8662 /* Discrimination.swift */,
 				CF7F0FE6257887A8004B8662 /* UnequalOpportunities.swift */,
+				CFD550A4257C3EAC0096D2A7 /* HiddenHistoryView.swift */,
 			);
 			path = ChallengesFlow;
 			sourceTree = "<group>";
@@ -352,6 +358,7 @@
 				3F7EC338257B2D7500B5B114 /* CreditsView.swift in Sources */,
 				3F044365256C7DDB009FC559 /* About.swift in Sources */,
 				3F7EC34D257B563A00B5B114 /* GraceHopperView.swift in Sources */,
+				CFD550B0257DA5220096D2A7 /* WebView.swift in Sources */,
 				3F04436D256C7DEA009FC559 /* Challenges.swift in Sources */,
 				3F7EC343257B4FBB00B5B114 /* ProfileCardView.swift in Sources */,
 				3F9B19EC2578A1600078EF4A /* MargaretHamiltonView.swift in Sources */,
@@ -361,6 +368,7 @@
 				CF7F0FEC257887C1004B8662 /* ChallengesButton.swift in Sources */,
 				3F044335256C7D27009FC559 /* ContentView.swift in Sources */,
 				3F9B19E62578A1170078EF4A /* AchievementsView.swift in Sources */,
+				CFD550A5257C3EAC0096D2A7 /* HiddenHistoryView.swift in Sources */,
 				CF7F0FE2257883FF004B8662 /* Discrimination.swift in Sources */,
 				3F7EC348257B561E00B5B114 /* JoanClarkeView.swift in Sources */,
 				CF7F0FE7257887A8004B8662 /* UnequalOpportunities.swift in Sources */,
@@ -534,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WomenInCode/Preview Content\"";
-				DEVELOPMENT_TEAM = 6VH946FT2M;
+				DEVELOPMENT_TEAM = HXYM5H2DXG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WomenInCode/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -542,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.WomenInCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anikamorris.WomenInCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,7 +564,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WomenInCode/Preview Content\"";
-				DEVELOPMENT_TEAM = 6VH946FT2M;
+				DEVELOPMENT_TEAM = HXYM5H2DXG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WomenInCode/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -564,7 +572,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.henrycalderon.WomenInCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anikamorris.WomenInCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
