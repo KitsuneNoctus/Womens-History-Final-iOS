@@ -23,6 +23,10 @@ struct WomenOfCode: View {
                     ProfileCardView(image: "woman-sitting-at-computer", name: "Joan Clarke")
                 }
             }
+            .padding([.horizontal,.bottom])
+            .lineSpacing(10)
+            .navigationBarTitle("Women in History", displayMode: .automatic)
+//            .offset(x: 0, y: -100)
         }
         .lineSpacing(10)
         .padding([.leading, .trailing], 20)
